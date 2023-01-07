@@ -2,4 +2,6 @@ language: bg
 intents:
   HassTurnOff:
     data:
-    - sentences: []
+    - sentences:
+        - "(изключи | изгаси | угаси )  <name>"
+
