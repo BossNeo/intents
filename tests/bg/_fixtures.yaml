@@ -1,17 +1,37 @@
 language: bg
 areas:
-  - name: "кухня | кухнята | кухненски | кухненският"
+  - name: "кухня[та] | кухненски[(я|ят|те)] | кухненска[та]"
     id: kitchen
-  - name: "всекидневна | всекидневната | хол | хола | холът"
+  - name: "всекидневна[та] | хол[(а|ът)] | холск(и|ите|а|ата)"
     id: living_room
-  - name: "спалня | спалнята"
+  - name: "спалня[та]"
     id: bedroom
-  - name: "гараж | гаража | гаражът"
+  - name: "гараж[(а|ът)]"
     id: garage
-  - name: "тераса | терасата"
+  - name: "тераса[та] | веранда[та]"
     id: terrace
-  - name: "балкон | балкона | балконът"
+  - name: "балкон[(а|ът)]"
     id: balcony
+  - name: "баня[та]"
+    id: bathroom
+  - name: "офис[(а|ът)]|канцелария[та]"
+    id: office
+  - name: "библиотека[та]"
+    id: study
+  - name: "мокро помещение | мокрото помещение "
+    id: closet
+  - name: "вход[а|ът] | антре[то]"
+    id: entrance
+  - name: "вестибюл[(а|ът)] |коридор[(а|ът)]"
+    id: hallway
+  - name: "килер[(а|ът)] "
+    id: pantry
+  - name: "гардероб[(а|на)] | дрешник[а]"
+    id: wardrobe
+  - name: "тоалетна[та] | ВЦ | кенеф[a]"
+    id: wc
+  - name: "стълби[(тe|ща|щата)]"
+    id: staircase
 entities:
   - name: Лампата в спалнята
     id: light.bedroom_lamp
@@ -22,6 +42,3 @@ entities:
   - name: Вентилаторът на тавана
     id: fan.ceiling
     area: living_room
-  - name: Климатика
-    id: ac.kitchen
-    area: kitchen
